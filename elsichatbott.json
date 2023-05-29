@@ -1,0 +1,617 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "bro",
+        "sis",
+        "kawan",
+        "halo bro",
+        "halo bot",
+        "hai bot",
+        "heyo",
+        "cuk","oi", "yo bot", "bre",
+        "pagi","pagi bot", "halo, pagi bot", "selamat pagi",
+        "siang","siang bot", "halo, siang bot", "selamat siang",
+        "malam","Malam","malam bot","Malam Bot", "halo, malam bot","Halo, malam", "selamat malam","Selamat Malam"
+      ],
+      "responses": [
+        "Hai! ELSI-Bot di sini. Kamu mau bertanya seputar Long covid? Insya Allah saya akan menjawabnya :)",
+        "Halo! Saya ELSI-Bot, salam kenal ya! Semoga kamu sehat selalu ya...mau bertanya seputar Long Covid? bisa langsung bertanya kepada saya :) ",
+        "Helo! Ini ELSI-Bot",
+        "Hai! ELSI-Bot disni. Mau tanya seputar Long Covid? bisa tanyakan kepada saya :)"
+      ]
+    },
+    {
+      "tag": "Assalamualaikum",
+      "patterns": [
+        "Assalamualaikum",
+        "assalamualaikum bot"
+      ],
+      "responses": [
+        "wa'alaikumsalam, saya ELSI-Bot, Mau bertanya seputar Long Covid?"
+      ]
+    },
+    
+    {
+      "default": "Maaf, saya tidak mengerti pertanyaan Anda. Silakan coba lagi atau ajukan pertanyaan yang berbeda."
+    },
+
+    {
+      "tag": "ELSI-Bot",
+      "patterns": [
+        "Apa itu ELSI-Bot?",
+        "Siapa ELSI-Bot?"
+      ],
+      "responses": [
+        "ELSI-Bot adalah aplikasi chatbot informasi tentang seputar Long Covid!",
+        "ELSI-Bot itu adalah teman informasi kamu tentang Long Covid!"
+      ]
+    },
+    {
+      "tag": "pencipta_ELSIBot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Siapa sih yang membuat kamu?",
+        "yang buat kamu siapa?"
+      ],
+      "responses": [
+        "ELSI-Bot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat ELSI-Bot dari kalangan mahasiswa dan mahasiswi UIN SUSKA kelompok 9 yang mengikuti MBKM Orbit AI MAstery lho!",
+        "Penciptaku berasal dari kelompok 9 yang kreatif yang mengikuti MBKM Orbit AI MAstery lho, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "terima kasih",
+        "Makasih","Makasih ya bot",
+        "Maaciw bot","terima kasih atas informasinya","makasih banyak ya",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "pengertianLongCovid",
+      "patterns": [
+        "Apa itu long Covid?",
+        "Apa yang dimaksud dengan long covid?", "Long Covid adalah?",
+        "Apa pengertian Long Covid?", "Pengertian Long Covid?"
+      ],
+      "responses": [
+        "Long Covid adalah istilah yang digunakan untuk menggambarkan kondisi di mana seseorang masih mengalami gejala Covid-19 dalam jangka waktu yang lama setelah sembuh dari infeksi akut. Gejala long Covid dapat terjadi selama berminggu-minggu atau bahkan berbulan-bulan setelah seseorang sembuh dari Covid-19. Meskipun tidak semua orang yang terinfeksi Covid-19 mengalami long Covid. Long Covid merujuk pada kondisi di mana seseorang mengalami gejala Covid-19 yang berlanjut atau muncul kembali dalam jangka waktu yang lebih lama setelah mereka sembuh dari infeksi virus Corona. Gejala Long Covid dapat bervariasi, tetapi yang umum meliputi kelelahan yang parah, sesak napas, nyeri otot dan sendi, gangguan tidur, kehilangan penciuman atau perubahan perasaan, masalah kognitif seperti kesulitan konsentrasi, serta depresi atau kecemasan. https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-long-term-effects-and-complications"
+      ]
+    },
+    {
+      "tag": "Penyebab",
+      "patterns": [
+        "Apa yang menyebabkan long Covid?",
+        "apa penyebab long covid?",
+        "Apa yang menyebabkan Long Covid?",
+        "Apa penyebab utama long covid"
+      ],
+      "responses": [ 
+        "Penyebab pasti dari long Covid masih belum diketahui dengan pasti. Namun, beberapa faktor yang diduga berkontribusi pada terjadinya long Covid antara lain: Kerusakan sel dan jaringan tubuh akibat infeksi Covid-19"
+      ]
+    },
+    {
+      "tag": "gejala",
+      "patterns": [
+        "Apa saja gejala long Covid?",
+        "apa gejalanya",
+        "apa aja gejala long covid?",
+        "Apakah long Covid hanya terjadi pada orang yang memiliki gejala berat selama infeksi Covid-19?",
+        "long covid ini apakah hanya terjadi pada orang yang memilki gejala berat selama covid19?",
+        "Apa Gejala umum orang terkena long covid?",
+        "Apakah gejala long Covid dapat memburuk seiring waktu?",
+        "Apa gejala lanjutan pada titik tertentu setelah sembuh?"
+      ],
+      "responses": [
+        "Gejala long Covid bisa bervariasi dari satu orang ke orang lain, namun beberapa gejala yang sering dilaporkan antara lain: Kelelahan yang berlebihan Sesak napas atau sulit bernafas Sakit dada Sakit kepala Gangguan tidur atau insomnia Kesulitan berkonsentrasi atau kabut otak Pusing atau pingsan Gangguan pencernaan seperti mual, diare, atau sakit perut Nyeri otot atau sendi Gejala flu seperti demam, batuk, atau pilek yang berkepanjangan Gejala long Covid dapat berlangsung selama berbulan-bulan setelah sembuh dari Covid 19 dan dapat mempengaruhi kualitas hidup seseorang. Oleh karena itu, penting untuk memperhatikan gejala yang terjadi dan segera berkonsultasi dengan dokter jika mengalami gejala yang berlangsung lama atau semakin parah. Beberapa orang melaporkan bahwa gejala long Covid mereka memburuk seiring waktu, bahkan setelah awalnya mengalami perbaikan. Namun, setiap orang mungkin mengalami pengalaman yang berbeda-beda. Beberapa orang mungkin merasa gejala mereka membaik dalam beberapa minggu atau bulan, sementara yang lain mungkin mengalami gejala yang stabil atau bahkan semakin buruk. Oleh karena itu, penting untuk terus memantau kondisi kesehatan dan berkonsultasi dengan dokter jika mengalami gejala long Covid. Sebuah survei di Jepang menunjukkan bahwa rasio orang-orang yang mengalami gejala lanjutan COVID-19 berbeda tergantung pada waktu yang berlalu setelah mereka sembuh dari penyakit ini. Survei tersebut dilakukan secara bersama oleh Profesor Kutsuna Satoshi dari Universitas Osaka dan Kota Toyonaka di Provinsi Osaka. Mereka menyurvei sekitar 26.000 warga kota yang telah tertular virus korona hingga akhir Maret 2022 melalui surat dan aplikasi. Lebih dari 4.000 orang merespons. Di antaranya, 47,7 persen mengatakan masih memiliki gejala setelah 10 hari isolasi mandiri, sementara 5,2 persen mengatakan masih merasakan gejala lanjutan satu bulan setelah mengalami gejala awal, dan 3,7 persen mengatakan merasakannya dua bulan kemudian. Survei itu juga menemukan bahwa orang-orang dengan gejala parah lebih mungkin mengalami gejala lanjutan, dan mereka yang telah divaksinasi cenderung mengalami lebih sedikit gejala lanjutan."
+      ]
+    },
+    {
+      "tag": "sembuhlongcovid",
+      "patterns": [
+        "Apakah semua orang yang sembuh dari Covid-19 bisa terkena long Covid?","apa semua orang yg sembuh dari covid19 bisa terkena long covid?",
+        "apa semua orang yang sembuh dari covid 19 bisa terkena long covid?"
+      ],
+      "responses": [
+        "Tidak semua orang yang sembuh dari Covid-19 akan mengalami long Covid. Namun, beberapa studi menunjukkan bahwa sekitar 10-30% orang yang sembuh dari Covid-19 mungkin akan mengalami gejala long Covid. Faktor-faktor seperti usia, jenis kelamin, kesehatan sebelumnya, dan tingkat keparahan Covid-19 saat terinfeksi dapat memengaruhi risiko seseorang mengalami long Covid."
+      ]
+    },
+    {
+      "tag": "berbahayakah",
+      "patterns": [
+        "Apakah long Covid berbahaya?","Apa long covid berbahaya?",
+        "Berbahayakah long covid","berbahayakah long covid?",
+        "bahayakah long covid?"
+      ],
+      "responses": [
+        "Sampai saat ini, masih belum diketahui secara pasti apakah long Covid berbahaya secara medis. Namun, long Covid dapat mengganggu aktivitas sehari-hari dan memengaruhi kualitas hidup seseorang. Beberapa orang yang mengalami long Covid melaporkan gejala yang berat dan berlangsung selama berbulan-bulan, bahkan setelah hasil tes Covid-19 mereka negatif. Oleh karena itu, penting untuk mengambil langkah-langkah pencegahan Covid-19 yang tepat untuk menghindari risiko terkena long Covid dan segera berkonsultasi dengan dokter jika mengalami gejala yang berlangsung lama atau semakin parah."
+      ]
+    },
+
+    {
+      "tag": "sindromkelelahan",
+      "patterns": [
+        "Apakah long Covid sama dengan sindrom kelelahan kronis?",
+        "long covid ini sama dengan sindrom kelelahan kronis?"
+      ],
+      "responses": [
+        "Long Covid dan sindrom kelelahan kronis memiliki gejala yang serupa, seperti kelelahan, gangguan kognitif, dan masalah tidur. Namun, penyebab keduanya berbeda. Sindrom kelelahan kronis sebelumnya dikenal sebagai sindrom kelelahan kronis yang tidak diketahui penyebabnya secara pasti, sedangkan long Covid disebabkan oleh infeksi virus SARS-CoV-2. Meskipun demikian, banyak orang yang sembuh dari Covid-19 melaporkan mengalami gejala sindrom kelelahan kronis setelah sembuh dari Covid-19, dan dalam beberapa kasus, gejala tersebut berlangsung selama berbulan-bulan atau bahkan lebih lama."
+      ]
+    },
+    {
+      "tag": "hanyadewasa",
+      "patterns": [
+        "Apakah long Covid hanya terjadi pada orang dewasa?",
+        "Apa long covid hanya terjadi pada orang dewasa?",
+        "Apa long covid hanya pada orang dewasa aja?"
+
+      ],
+      "responses": [
+        "Long Covid dapat terjadi pada orang dewasa maupun anak-anak. Namun, sampai saat ini, mayoritas penelitian tentang long Covid dilakukan pada populasi dewasa, sehingga informasi tentang long Covid pada anak-anak masih terbatas. Beberapa studi awal menunjukkan bahwa long Covid pada anak-anak memiliki gejala yang serupa dengan long Covid pada orang dewasa, seperti kelelahan, sesak napas, dan gangguan pencernaan."
+      ]
+    },
+    {
+      "tag": "tespositif",
+      "patterns": [
+        "Apakah tes Covid-19 masih positif pada orang yang mengalami long Covid?"
+      ],
+      "responses": [
+        "Tidak selalu. Pada beberapa kasus, tes Covid-19 pada orang dengan long Covid bisa menunjukkan hasil negatif, karena virus itu sendiri mungkin sudah tidak terdeteksi lagi dalam tubuh. Namun, pada kasus lain, tes Covid-19 masih bisa menunjukkan hasil positif, meskipun seseorang sudah sembuh dari infeksi awalnya. Hal ini bisa terjadi karena sisa-sisa virus masih ada dalam tubuh dan tidak selalu menunjukkan bahwa seseorang masih terinfeksi atau bergejala dari Covid-19. Oleh karena itu, penting untuk berkonsultasi dengan dokter jika mengalami gejala yang berkelanjutan setelah sembuh dari Covid-19."
+      ]
+    },
+    {
+      "tag": "menyebar",
+      "patterns": [
+        "Apakah long Covid dapat menyebar melalui udara atau kontak langsung?",
+
+        "Apakah long covid dapat menyebar melalui udara atau kontak langsung?",
+        "Apakah long Covid dapat menyebar melalui udara?",
+        "Apakah long covid dapat menyebar melalui kontak langsung?"
+      ],
+      "responses": [
+        "Tidak, long Covid bukan penyakit menular seperti Covid-19. Long Covid adalah kondisi kesehatan pasca-Covid-19 yang dialami oleh seseorang yang pernah terinfeksi virus tersebut. Oleh karena itu, long Covid tidak dapat menyebar melalui udara atau kontak langsung dengan pasien long Covid."
+      ]
+    },
+    {
+      "tag": "vaksin",
+      "patterns": [
+        "Apakah vaksin Covid19 bisa mencegah long Covid?",
+        "Benarkah vaksin dapat meredakan gejala long covid?",
+        "Apa benar vaksin dapat meredakan gejala long covid?"
+      ],
+      "responses": [
+        "Belum diketahui secara pasti, namun vaksinasi Covid-19 diketahui dapat mengurangi risiko terkena Covid-19 dan mungkin juga dapat mengurangi risiko terkena long Covid."
+      ]
+    },
+    {
+      "tag": "belumkena",
+      "patterns": [
+        "Apakah orang yang belum pernah terkena Covid19 bisa terkena long Covid?"
+      ],
+      "responses": [
+        "Sejauh ini, long Covid hanya terjadi pada orang yang pernah terinfeksi Covid-19, baik yang memiliki gejala ringan maupun berat. Long Covid adalah kondisi di mana seseorang mengalami gejala Covid-19 yang berlangsung lebih dari 12 minggu setelah infeksi awal. Meskipun demikian, studi tentang long Covid masih terbatas dan masih banyak yang perlu dipelajari tentang kondisi ini."
+      ]
+    },
+    {
+      "tag": "faktorrisiko",
+      "patterns": [
+        "Apa saja faktor risiko yang dapat meningkatkan risiko seseorang mengalami long Covid?",
+        "Apakah ada faktor risiko yang dapat meningkatkan kemungkinan seseorang mengalami long covid?"
+      ],
+      "responses": [
+        "Beberapa faktor risiko yang diduga dapat meningkatkan risiko seseorang mengalami long Covid antaranya Keparahan gejala Covid-19: Orang yang mengalami gejala Covid-19 yang lebih berat atau mengalami rawat inap di rumah sakit lebih mungkin mengalami long Covid. Usia: Orang yang lebih tua cenderung lebih rentan terhadap long Covid. Jenis kelamin: Studi menunjukkan bahwa perempuan lebih berisiko mengalami long Covid daripada laki-laki. Riwayat medis: Orang dengan kondisi medis yang sudah ada sebelumnya, seperti penyakit jantung, diabetes, asma, atau penyakit autoimun, dapat memiliki risiko yang lebih tinggi untuk mengalami long Covid. Kurangnya vaksinasi: Orang yang belum divaksinasi atau hanya menerima satu dosis vaksin Covid-19 memiliki risiko lebih tinggi untuk terinfeksi Covid-19 dan mengalami long Covid."
+      ]
+    },
+    {
+      "tag": "bahaya",
+      "patterns": [
+        "Apakah long Covid berbahaya?",
+        "Berbahayakah long covid?"
+      ],
+      "responses": [
+        "Meskipun hingga saat ini belum ada bukti yang jelas tentang bahaya long Covid secara medis, kondisi ini dapat mengganggu aktivitas sehari-hari dan menurunkan kualitas hidup seseorang. Beberapa orang dengan long Covid melaporkan gejala yang berat dan berkelanjutan seperti sesak napas, kelelahan, gangguan memori, kesulitan berkonsentrasi, sakit kepala, dan masalah kesehatan mental seperti kecemasan dan depresi. Karena long Covid masih belum banyak dipahami, maka perlu diwaspadai kemungkinan bahwa terdapat risiko jangka panjang pada kesehatan tubuh secara medis. Beberapa studi telah menunjukkan bahwa long Covid dapat menyebabkan kerusakan pada organ tubuh, termasuk jantung, paru-paru, dan otak, sehingga penting untuk tetap memperhatikan dan memonitor kondisi tubuh dan memperhatikan gejala long Covid yang mungkin muncul setelah sembuh dari Covid-19."
+      ]
+    },
+    {
+      "tag": "mencegah",
+      "patterns": [
+        "Bagaimana cara mencegah terkena long Covid?",
+        "Gimana cara mencegahnya?",
+        "Apakah ada cara mencegahnya?",
+        "Bagaimana cara mencegah long covid?"
+      ],
+      "responses": [
+        "Cara terbaik untuk mencegah terkena long Covid adalah dengan mencegah terinfeksi Covid-19. Berikut adalah beberapa cara untuk mencegah terkena Covid-19 dan mengurangi risiko terkena long Covid: Divaksinasi, Hindari kerumunan dan jaga jarak sosial minimal 1 meter dari orang lain, Gunakan masker, Cuci tangan secara teratur, Meningkatkan daya tahan tubuh, Hindari paparan asap rokok dan polusi udara. [Sumber: NHS]"
+      ]
+    },
+    {
+      "tag": "harusdilakukan",
+      "patterns": [
+        "Apa yang harus dilakukan jika mengalami gejala long Covid yang parah?"
+      ],
+      "responses": [
+        "Jika seseorang mengalami gejala Long Covid yang parah, langkah yang paling penting adalah mencari perawatan medis segera. Ini penting karena gejala yang parah dapat memengaruhi kualitas hidup dan kesejahteraan individu tersebut. Menghubungi dokter atau fasilitas kesehatan terdekat adalah langkah pertama yang harus diambil. Dokter akan melakukan pemeriksaan dan evaluasi untuk menentukan langkah selanjutnya. Mereka dapat merekomendasikan tes tambahan, seperti tes darah atau pemindaian, untuk membantu mendiagnosis dan memahami kondisi yang dialami. Terapi dan pengobatan yang tepat akan ditentukan berdasarkan gejala dan kondisi pasien. Selain perawatan medis, penting untuk memberikan diri sendiri istirahat yang cukup dan mengikuti arahan dokter mengenai pengaturan aktivitas fisik dan mental. Dukungan sosial dan psikologis juga dapat membantu dalam mengatasi dampak emosional dan mental yang mungkin muncul akibat gejala yang berkepanjangan. Ingatlah bahwa setiap kasus Long Covid bisa berbeda-beda, dan penanganannya akan disesuaikan dengan kondisi individu. Mencari bantuan medis profesional adalah langkah yang paling penting untuk mengatasi gejala Long Covid yang parah."
+      ]
+    },
+    {
+      "tag": "penyebabkerusakan",
+      "patterns": [
+        "Apakah long Covid bisa menyebabkan kerusakan permanen pada organ tubuh?"
+      ],
+      "responses": [
+        "Belum ada penelitian yang menunjukkan bahwa long Covid menyebabkan kerusakan permanen pada organ tubuh. Namun, beberapa pasien long Covid melaporkan gejala yang berlangsung selama berbulan-bulan, bahkan hingga setahun setelah sembuh dari Covid-19. Oleh karena itu, penting untuk terus memantau kondisi kesehatan dan berkonsultasi dengan dokter jika mengalami gejala long Covid yang parah atau berlangsung lama."
+      ]
+    },
+    {
+      "tag": "pemulihan",
+      "patterns": [
+        "Apakah gejala long Covid bisa muncul setelah masa pemulihan Covid-19?",
+        "apakah bisa muncul setelah masa pemulihan covid19"
+        
+      ],
+      "responses": [
+        "Ya, gejala long Covid dapat muncul setelah masa pemulihan Covid-19. Beberapa orang mungkin merasa sembuh dari Covid-19 pada awalnya, namun beberapa minggu atau bahkan bulan kemudian mengalami gejala long Covid. Hal ini karena long Covid merupakan kondisi yang terjadi ketika sistem kekebalan tubuh masih berusaha pulih dari infeksi Covid-19, yang dapat mempengaruhi berbagai organ dan sistem tubuh. Oleh karena itu, penting untuk tetap memperhatikan gejala yang muncul setelah sembuh dari Covid-19 dan berkonsultasi dengan dokter jika mengalami gejala yang berlangsung selama beberapa minggu atau lebih."
+      ]
+    },
+    {
+      "tag": "faktorresiko",
+      "patterns": [
+        "Apa saja faktor risiko terkena long Covid?" 
+      ],
+      "responses": [
+        "Beberapa faktor risiko terkena long Covid yang telah diidentifikasi meliputi usia lanjut, jenis kelamin (perempuan lebih banyak terkena), memiliki obesitas atau penyakit kronis seperti diabetes, tekanan darah tinggi, dan penyakit jantung, serta mengalami gejala Covid-19 yang parah atau mengalami infeksi Covid-19 secara berulang. Namun, risiko seseorang terkena long Covid tetap belum dapat diprediksi dengan pasti."
+      ]
+    },
+    {
+      "tag": "sindromlelah",
+      "patterns": [
+        "Apakah long Covid sama dengan sindrom kelelahan kronis?",
+        "apakah sama dengan sindrom kelelahan kronis?"
+      ],
+      "responses": [
+        "Meskipun ada kesamaan dalam gejala kelelahan dan gangguan kognitif antara Long Covid dan sindrom kelelahan kronis, penyebab dan mekanisme keduanya belum sepenuhnya dipahami. Long Covid berkaitan dengan infeksi Covid-19 yang sebelumnya diderita, sedangkan sindrom kelelahan kronis dapat muncul tanpa hubungan langsung dengan infeksi virus. Penting untuk berkonsultasi dengan dokter jika mengalami gejala berkepanjangan setelah pulih dari Covid-19 atau jika mengalami kelelahan kronis yang tidak dapat dijelaskan. Dokter akan dapat melakukan pemeriksaan dan memberikan diagnosis yang tepat serta rekomendasi perawatan yang sesuai."
+      ]
+    },
+    {
+      "tag": "pengobatan",
+      "patterns": [
+        "Bagaimana pengobatan untuk Long Covid?",
+        "gimana pengobatan untuk Long covid?"  
+      ],
+      "responses": [
+        "Saat ini, tidak ada pengobatan khusus untuk Long Covid. Terapi yang direkomendasikan meliputi manajemen gejala dan rehabilitasi yang disesuaikan dengan kebutuhan individu. Ini dapat mencakup penggunaan obat untuk mengendalikan nyeri atau gangguan tidur, terapi fisik, terapi rehabilitasi paru-paru, terapi bicara, serta dukungan psikologis untuk mengatasi dampak emosional dari Long Covid. https://www.nhs.uk/conditions/long-covid/"
+      ]
+    },
+    {
+      "tag": "merawatdiri",
+      "patterns": [
+        "Bagaimana cara merawat diri agar tidak terkena long covid?",
+        "gimana cara kita merawat diri agar tidak terkena long covid?"
+      ],
+      "responses": [
+        "Cara kita merawat diri kita dengan mempraktikkan perilaku hidup sehat standar, seperti mengonsumsi makanan bergizi, tidur cukup, dan menghindari perilaku seperti merokok, dapat mengurangi risiko keparahan Covid-19. Namun, mengenai upaya pemulihan long covid, saat ini sebetulnya belum ada jawaban yang pasti. Salah satu yang dapat membantu mengatasi kasus long covid adalah mendapatkan vaksin Covid-19. Menurutnya, sejumlah kasus yang tercatat menunjukkan gejala pasien membaik setelah divaksinasi. Ini dapat mengindikasikan bahwa vaksin mungkin dapat mengubah respoons kekebalan tubuh seseorang dan membantu mengatasi gejala long covid. Meskipun, menurutnya mekanismenya masih tidak jelas. Hal yang jelas adalah vaksin sangatlah penting. Saya rasa itu menjadi pesan penting bahwa vaksinasi memiliki dua tujuan. Satu, tentu kita ingin mendapatkannya sebelum terinfeksi Covid-19 sehingga kita terlindungi, tetapi bahkan pada orang yang telah terinfeksi, tampaknya vaksinasi membantu mengatasi gejala long covid, ujarnya. Sementara itu, melansir Nature, seorang ahli imunobiologi dari Yale University, Akiko Iwasaki, merekrut orang-orang dengan long covid yang belum divaksin. Ia bersama rekan-rekannya mencoba mencari tahu bagaimana tubuh mereka bereaksi terhadap vaksin. Akiko berhipotesis bahwa vaksin dapat memperbaiki gejala dengan menghilangkan virus atau sisa-sisa virus yang ada di tubuh, atau dengan menyeimbangkan kembali sistem kekebalan tubuh."
+      ]
+    },
+    {
+      "tag": "dampakekonomi",
+      "patterns": [
+        "Apa Dampak ekonomi akibat long covid?",
+        "apakah long covid ini berdampak pada ekonomi?"
+      ],
+      "responses": [
+        "Orang-orang yang mengalami long Covid memiliki kemungkinan besar untuk berada pada situasi finansial yang lebih buruk dibandingkan satu tahun sebelumnya. Hal ini mungkin terjadi karena long Covid membuat orang-orang tak bisa berfungsi dengan kapasitas yang sama seperti sebelum pandemi. Long Covid bisa memuat penderitanya mengajukan izin sakit lebih panjang, waktu kerja menurun, dan akibatnya pendapatan mereka pun ikut menurun. Bahkan, ada pula penderita long Covid yang pada akhirnya memutuskan untuk berhenti dari pekerjaan mereka."
+      ]
+    },
+    {
+      "tag": "caradiagnosis",
+      "patterns": [
+        "Bagaimana long covid didiagnosis?",
+        "Bagaimana cara long covid didiagnosis?",
+        "bagaimana cara mendiagnosisnya?",
+        "Bagaimana sih long covid didiagnosis?"
+      ],
+      "responses": [
+        ": Diagnosa Long Covid biasanya didasarkan pada gejala yang berlangsung lebih lama dari yang diharapkan setelah pemulihan dari infeksi Covid-19. Tidak ada tes khusus untuk Long Covid, tetapi dokter dapat melakukan evaluasi menyeluruh yang meliputi riwayat gejala, pemeriksaan fisik, serta tes tambahan seperti tes darah, pemindaian paru-paru, atau pemeriksaan jantung jika diperlukan. https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html"
+      ]
+    },
+    {
+      "tag": "sembuhlongcovid2",
+      "patterns": [
+        "Apakah Long Covid dapat sembuh sepenuhnya?"
+      ],
+      "responses": [
+        "Untuk beberapa orang, gejala Long Covid dapat sembuh sepenuhnya dalam beberapa bulan. Namun, beberapa orang mungkin mengalami gejala yang berlangsung lebih lama. [Sumber: Mayo Clinic]"
+      ]
+    },
+    {
+      "tag": "jangkapanjang",
+      "patterns": [
+        "Apakah Long Covid dapat menyebabkan kerusakan jangka panjang pada organ tubuh?",
+        "apakah dapat menyebabkan kerusakan jangka panjang pada organ tubuh?"
+      ],
+      "responses": [
+        "Long Covid dapat menyebabkan kerusakan jangka panjang pada organ tubuh seperti paru-paru, jantung, ginjal, dan sistem saraf. Namun,  studi lebih lanjut diperlukan untuk memahami dampaknya secara mendalam. [Sumber: The Lancet]"
+      ]
+    },
+    {
+      "tag": "perawatanjangkapanjang",
+      "patterns": [
+        "Apakah ada perawatan jangka panjang yang diperlukan bagi pasien Long Covid?" 
+      ],
+      "responses": [
+        "Beberapa pasien Long Covid mungkin membutuhkan perawatan jangka panjang dalam bentuk rehabilitasi fisik, rehabilitasi paru-paru, terapi bicara, dukungan psikologis, dan dukungan medis lainnya"
+      ]
+    },
+    {
+      "tag": "penelitian",
+      "patterns": [
+        "Apakah ada penelitian yang sedang dilakukan untuk memahami Long Covid?",
+        "adakah penelitian yang sedang dilakukan untuk memahami long covid"
+      ],
+      "responses": [
+        "Ya, banyak penelitian sedang dilakukan untuk memahami penyebab, mekanisme, dan pengobatan Long Covid. Penelitian ini diharapkan dapat memberikan wawasan yang lebih baik tentang kondisi ini. [Sumber: WHO]"
+      ]
+    },
+    {
+      "tag": "kualitashidup",
+      "patterns": [
+        "Apakah long covid dapat mempengaruhi kualitas hidup seseorang?" 
+      ],
+      "responses": [
+        "Ya, Long Covid dapat mempengaruhi kualitas hidup seseorang secara signifikan. Gejala yang berlangsung lama dapat menyebabkan kesulitan dalam menjalani kegiatan sehari-hari dan berdampak pada aspek fisik, mental, dan sosial kehidupan."
+      ]
+    },
+    {
+      "tag": "sembuhtotal",
+      "patterns": [
+        "Apakah Long Covid dapat disembuhkan sepenuhnya dengan waktu?",
+        "apakah dapat disembuhkan sepenunya dengan waktu?"
+      ],
+      "responses": [
+        "Bagi sebagian orang, gejala Long Covid dapat sembuh sepenuhnya seiring berjalannya waktu dan pemulihan yang tepat. Namun, bagi beberapa individu, gejala dapat berlangsung lebih lama atau membutuhkan perawatan jangka panjang. [Sumber: Mayo Clinic]"
+      ]
+    },
+    {
+      "tag": "laporgejala",
+      "patterns": [
+        "Bagaimana cara melaporkan gejala Long Covid kepada tenaga medis?",
+        "gimana cara melaporkan gejala Long Covid kepada tenaga medis?"
+      ],
+      "responses": [
+        "Jika Anda mengalami gejala yang berlangsung lebih lama setelah pemulihan dari Covid-19, penting untuk menghubungi tenaga medis Anda dan melaporkan gejala tersebut. Mereka akan memberikan panduan lebih lanjut dan evaluasi yang diperlukan."
+      ]
+    },
+    {
+      "tag": "deteksi",
+      "patterns": [
+        "Bagaimana cara mendeteksi Long Covid?",
+        "Gimana cara mendeteksinya?",
+        "gimana cara mendeteksi long covid?"
+      ],
+      "responses": [
+        "Diagnosa Long Covid didasarkan pada gejala yang berlangsung lebih lama dari yang diharapkan setelah pemulihan dari infeksi Covid-19. Tidak ada tes khusus untuk Long Covid, tetapi dokter dapat melakukan evaluasi menyeluruh termasuk riwayat gejala, pemeriksaan fisik, serta tes tambahan jika diperlukan."
+      ]
+    },
+    {
+      "tag": "perbedaanlongcoviddansindromkelelahan",
+      "patterns": [
+        "Apa perbedaan antara Long Covid dan sindrom kelelahan kronis?",
+        "Apa perbedaan Long Covid dan sindrom kelelahan kronis?"
+      ],
+      "responses": [
+        "Long Covid mengacu pada gejala yang berlanjut setelah infeksi Covid-19, sementara sindrom kelelahan kronis adalah kondisi yang ditandai dengan kelelahan yang berkepanjangan dan gejala lain yang tidak dapat dijelaskan secara medis."
+      ]
+    },
+    {
+      "tag": "risikokomplikasi",
+      "patterns": [
+        "Apakah ada risiko komplikasi jangka panjang akibat Long Covid?",
+        "Ada risiko komplikasi jangka panjang akibat Long Covid?",
+        "adakah risiko komplikasi jangka panjang akibat long covid?" 
+      ],
+      "responses": [
+        "Ada. Long Covid dapat meningkatkan risiko komplikasi jangka panjang seperti gangguan pernapasan, gangguan jantung, gangguan neurologis, dan masalah kesehatan mental. [Sumber: WHO]"
+      ]
+    },
+    {
+      "tag": "olahraga",
+      "patterns": [
+        "Apakah olahraga dapat membantu pemulihan dari Long Covid?"
+      ],
+      "responses": [
+        "Olahraga yang terukur dan disesuaikan dengan kondisi individu dapat membantu pemulihan fisik dan mental dari Long Covid. Namun, penting untuk berkonsultasi dengan dokter sebelum memulai program latihan."
+      ]
+    },
+    {
+      "tag": "perempuandanlakilaki",
+      "patterns": [
+        "Apakah perempuan lebih rentan terhadap Long Covid daripada laki-laki?"
+      ],
+      "responses": [
+        ": Beberapa studi menunjukkan bahwa perempuan cenderung mengalami gejala Long Covid dengan lebih sering daripada laki-laki, tetapi penelitian lebih lanjut diperlukan untuk memahami perbedaan ini. [Sumber: The BMJ]"
+      ]
+    },
+    {
+      "tag": "divaksinasi",
+      "patterns": [
+        "Apakah orang yang telah divaksinasi juga dapat mengalami Long Covid?"
+      ],
+      "responses": [
+        "Meskipun vaksin Covid-19 dapat mengurangi risiko infeksi dan gejala berat, beberapa orang yang telah divaksinasi masih dapat mengalami Long Covid. Namun, risikonya cenderung lebih rendah daripada mereka yang tidak divaksinasi. [Sumber: Mayo Clinic]"
+      ]
+    },
+    {
+      "tag": "efek",
+      "patterns": [
+        "Apa itu efek long covid?"
+      ],
+      "responses": [
+        "Mayoritas penderita COVID-19 akan sembuh (tanpa gejala) dalam kurun waktu 14 hingga 20 minggu setelah virus berhasil masuk ke dalam tubuh. Dalam kurun waktu tersebut, virus akan mati dengan sendirinya seiring perkembangan imun tubuh dalam melawan virus. Namun, beberapa kasus mulai dari bergejala ringan hingga berat memiliki gejala yang lebih lama dari kurun waktu tersebut. Gejala yang dialami oleh para penderita ini sering disebut dengan long COVID atau sindrom pasca COVID-19. Long covid ini sendiri memunculkan berbagai gejala baru, infeksi kembali, atau infeksi berkelanjutan yang dialami dalam kurun waktu lebih dari empat minggu setelah terinfeksi virus COVID-19. Pada beberapa kasus, sindrom long COVID ini berjalan berbulan-bulan atau bertahun-tahun, hingga dapat menyebabkan kecacatan."
+      ]
+    },
+    {
+      "tag": "lamalongcovid",
+      "patterns": [
+        "Berapa Lama Efek Long COVID Berlangsung?"
+      ],
+      "responses": [
+        "Penderita long COVID mungkin akan merasakan gejala dalam jangka waktu yang berbeda-beda, antara lebih dari empat minggu hingga berbulan-bulan lamanya. Gejala mungkin dapat menghilang dalam beberapa waktu dan kembali lagi, bahkan dengan tingkat yang lebih serius. Gejala yang dirasakan tiap orang akan berbeda, bergantung kondisi tubuh, kegiatan sehari-hari penderita, hingga penyakit bawaan dari penderita. Maka perlu diperhatikan gejala-gejala yang mulai dirasakan dan segera berkonsultasi dengan dokter atau tenaga medis lain apabila gejala yang dirasakan semakin kuat."
+      ]
+    },
+    {
+      "tag": "organterdampak",
+      "patterns": [
+        "Organ Apa yang paling terdampak?"
+        
+      ],
+      "responses": [
+        "Penderita long COVID yang juga menderita penyakit bawaan rentan kemungkinan mengalami kerusakan beberapa organ, seperti kulit, ginjal, jantung hingga otak. Peradangan serta masalah sistem imun juga mungkin terjadi akibat efek long COVID. Selain itu, efek long COVID juga mungkin mengarah ke perkembangan kondisi baru, seperti diabetes atau kondisi jantung serta sistem saraf. Penderita COVID-19 parah yang pernah dirawat di unit perawatan intensif rumah sakit dapat menderita kelemahan ekstrem serta gangguan stress pascatrauma, yakni kondisi kesehatan mental yang dipicu peristiwa mengerikan."
+      ]
+    },
+    {
+      "tag": "caradokter",
+      "patterns": [
+        "Bagaimana cara dokter menangani pasien?",
+        "gimana cara dokter menangani pasien"
+      ],
+      "responses": [
+        "Institut Penelitian Medis Rumah Sakit Kitano di Kota Osaka adalah salah satu institusi medis yang memiliki unit rawat jalan khusus bagi long COVID. Para dokter di unit tersebut menentukan apakah gejala pasien terkait COVID atau diakibatkan oleh penyakit lain dengan menanyakan kepada pasien mengenai kondisinya secara detail. Dokter Marumo Satoshi di rumah sakit itu mengatakan penting untuk pertama-tama memutuskan apakah pasien menderita gejala lanjutan COVID atau dari penyakit lain akibat penyakit kronis, seperti rematik artikular, yang dapat memburuk karena terinfeksi virus korona. Ia mengatakan diagnosis yang tepat memungkinkan para pasien menerima perawatan di unit yang khusus bagi kondisi mereka. Dokter itu juga menyebutkan beberapa orang yang mengatakan mereka memiliki long COVID menjadi depresi karena kecemasan mendalam yang disebabkan oleh kesehatan yang terus memburuk. Marumo mengatakan dalam sejumlah kasus, gejala timbul akibat kecemasan atas kemungkinan terjadinya gejala lanjutan. Menurutnya, sekitar 60 persen orang usia kerja berusia 40-an hingga 50-an yang dirawat di rumah sakit karena tertular virus korona tidak bisa kembali bekerja segera setelah pulih."
+      ]
+    },
+    {
+      "tag": "masker",
+      "patterns": [
+        "Jenis masker apa yang baik digunakan?",
+        "masker apa yang bagus digunakan?",
+        "jenis masker apa yang paling baik digunakan"
+      ],
+      "responses": [
+        "Untuk penggunaan masker dobel, rekomendasi saat ini adalah untuk menggunakan kombinasi masker bedah dan masker medis — alasan utama rekomendasi ini adalah karena masker bedah biasanya terpasang longgar dan menyisakan celah di atas hidung atau pipi. Dengan menggunakan masker kain diatasnya (yang notabene lebih bisa di atur kekencangannya), kita dapat memastikan bahwa masker terpasang lebih rapat dan meningkatkan proteksi terhadap diri kita."
+      ]
+    },
+    {
+      "tag": "mudahlelah",
+      "patterns": [
+        "Apakah mudah lelah termasuk gejala awal long covid?",
+        "mudah lelah termasuk gejala awal long covid"
+        
+      ],
+      "responses": [
+        "Ya, mudah lelah adalah salah satu gejala umum dari Long COVID. Long COVID mengacu pada kondisi dimana seseorang terus mengalami gejala COVID-19 setelah masa penyembuhan yang normal atau setelah infeksi ringan awal"
+      ]
+    },
+    {
+      "tag": "tidakterinfeksi",
+      "patterns": [
+        "Apakah orang yang tidak pernah terinfeksi covid-19 dapat mengalami gejala long covid?"  
+      ],
+      "responses": [
+        "Dalam beberapa kasus, orang yang tidak pernah terinfeksi COVID-19 dapat mengalami gejala yang mirip dengan long COVID setelah mengalami kontak dekat dengan individu yang terinfeksi atau setelah divaksinasi COVID-19. Ada teori yang beredar bahwa sistem kekebalan tubuh dapat merespons secara berlebihan terhadap virus atau komponen vaksin, yang mengakibatkan gejala yang berkelanjutan pada beberapa individu yang tidak pernah terinfeksi sebelumnya."
+      ]
+    },
+    {
+      "tag": "mengatasi",
+      "patterns": [
+        "Bagaimana cara mengatasi gejala awal long covid?",
+        "gimana cara mengatasi gejala awal long covid"
+      ],
+      "responses": [
+        "Untuk mengatasi gejala awal Long COVID, langkah-langkah yang dapat diambil termasuk istirahat yang cukup, menjaga pola makan sehat, olahraga ringan secara teratur, pijatan atau terapi fisik, mengelola stres, mendapatkan dukungan sosial, dan mengikuti petunjuk medis."
+      ]
+    },
+    {
+      "tag": "munculdanhilang",
+      "patterns": [
+        "Apakah gejala long covid dapat muncul dan menghilang secara tiba-tiba?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Pertamina, Bank BRI, PT. KBN, dsb. Info lebih lanjut melalui website FHCI BUMN atau instagram @fhci.bumn"
+      ]
+    },
+    {
+      "tag": "waktupemulihan",
+      "patterns": [
+        "Berapa lama waktu yang dibutuhkan untuk pulih dari long covid?",
+        "berapa lama long covid akan pulih?"
+      ],
+      "responses": [
+        "Waktu yang dibutuhkan untuk pulih dari long COVID dapat bervariasi antara individu. Beberapa orang dapat pulih dalam beberapa minggu atau bulan, sementara yang lain mungkin memerlukan waktu yang lebih lama. Studi dan laporan tentang long COVID telah menunjukkan bahwa gejala dapat berlangsung selama berminggu-minggu, berbulan-bulan, atau bahkan berkepanjangan selama setahun atau lebih. Beberapa orang mengalami perbaikan bertahap dalam gejala mereka seiring berjalannya waktu, sedangkan yang lain mungkin mengalami fluktuasi atau gejala yang berkelana."
+      ]
+    },
+    {
+      "tag": "menular",
+      "patterns": [
+        "Apakah long covid bisa menular?",
+        "apakah dapat menular"
+      ],
+      "responses": [
+        "Long COVID sendiri tidak menular karena bukan merupakan infeksi aktif oleh virus SARS-CoV-2. Long COVID terjadi setelah fase infeksi akut COVID-19, di mana individu telah pulih dari infeksi virus tetapi masih mengalami gejala yang berlanjut atau baru muncul setelahnya.Namun, penting untuk diingat bahwa SARS-CoV-2, virus yang menyebabkan COVID-19, masih dapat menular dari individu yang mengalami infeksi aktif kepada orang lain. Jadi, jika seseorang memiliki Long COVID dan kemudian terinfeksi kembali oleh virus, mereka dapat menularkan virus kepada orang lain seperti individu dengan COVID-19 akut.Untuk mencegah penularan virus, penting bagi semua orang, baik mereka yang mengalami Long COVID maupun mereka yang telah sembuh dari COVID-19, untuk tetap mematuhi pedoman kesehatan masyarakat yang disarankan oleh otoritas kesehatan, seperti menjaga jarak fisik, menggunakan masker, mencuci tangan secara teratur, dan menghindari kerumunan."
+      ]
+    },
+    {
+      "tag": "perawatan intensif",
+      "patterns": [
+        "Apakah orang yang mengalami long covid harus melakukan perawatan intensif dirumah sakit?",
+        "Apakah orang yang mengalami long covid harus dirawat dirumah sakit"
+      ],
+      "responses": [
+        "Sebagian besar kasus Long COVID tidak memerlukan perawatan intensif di rumah sakit. Gejala Long COVID umumnya beragam dan dapat meliputi kelelahan yang berkepanjangan, sesak napas, nyeri sendi, gangguan tidur, masalah kognitif, dan gejala lainnya. Pengelolaan Long COVID biasanya melibatkan perawatan yang berfokus pada meredakan gejala dan meningkatkan kualitas hidup.Penting bagi individu yang mengalami Long COVID untuk berkonsultasi dengan tenaga medis terkait untuk mendapatkan evaluasi dan saran yang tepat. Dalam beberapa kasus, perawatan mungkin melibatkan spesialisasi seperti ahli paru-paru, ahli rehabilitasi, ahli jantung, atau ahli lainnya sesuai dengan gejala dan kebutuhan individu.Perawatan Long COVID dapat mencakup manajemen gejala dengan obat-obatan, terapi fisik, terapi rehabilitasi, dukungan psikologis, dan perubahan gaya hidup yang sehat. Setiap individu dengan Long COVID harus mendapatkan rencana perawatan yang disesuaikan dengan kebutuhan dan kondisi mereka sendiri."
+      ]
+    },
+    {
+      "tag": "asal long covid",
+      "patterns": [
+        "asal penyakit long covid secara singkat"
+        
+      ],
+      "responses": [
+        "Long COVID adalah kondisi di mana seseorang mengalami gejala yang berlanjut atau baru muncul setelah infeksi COVID-19 awal mereka sembuh. Meskipun penyebab pasti Long COVID belum sepenuhnya dipahami, beberapa faktor yang diduga berperan termasuk sistem kekebalan tubuh yang terganggu, peradangan yang berkelanjutan, dan kerusakan jaringan yang disebabkan oleh virus SARS-CoV-2. Penelitian masih dilakukan untuk memahami penyebab dan mekanisme yang lebih rinci terkait Long COVID."
+      ]
+    },
+    {
+      "tag": "nama virus ",
+      "patterns": [
+        "apa nama virus long covid"
+        
+      ],
+      "responses": [
+        "Long COVID adalah kondisi di mana seseorang mengalami gejala yang berlanjut atau baru muncul setelah infeksi COVID-19 awal mereka sembuh. Meskipun penyebab pasti Long COVID belum sepenuhnya dipahami, beberapa faktor yang diduga berperan termasuk sistem kekebalan tubuh yang terganggu, peradangan yang berkelanjutan, dan kerusakan jaringan yang disebabkan oleh virus SARS-CoV-2. Penelitian masih dilakukan untuk memahami penyebab dan mekanisme yang lebih rinci terkait Long COVID."
+      ]
+    },
+    {
+      "tag": "umur ",
+      "patterns": [
+        "Berapa batas minimal umur terkena long covid"
+        
+      ],
+      "responses": [
+        "Long COVID dapat terjadi pada individu dari berbagai kelompok usia, termasuk anak-anak, remaja, dan orang dewasa. Tidak ada batasan usia minimal untuk terkena Long COVID.Meskipun sebagian besar kasus Long COVID melibatkan orang dewasa, beberapa studi juga melaporkan bahwa anak-anak dan remaja dapat mengalami gejala yang berlanjut setelah infeksi awal COVID-19 mereka.Penting untuk diingat bahwa dampak Long COVID dapat bervariasi dari individu ke individu. Beberapa orang mungkin pulih sepenuhnya dalam beberapa minggu, sementara yang lain mungkin mengalami gejala yang berkepanjangan atau kambuh dalam jangka waktu yang lebih lama.Jika Anda atau seseorang yang Anda kenal mengalami gejala yang berlanjut setelah infeksi COVID-19, penting untuk berkonsultasi dengan tenaga medis terkait untuk evaluasi dan pengelolaan yang tepat, tanpa memandang usia."
+      ]
+    },
+    {
+      "tag": "kegiatan ",
+      "patterns": [
+        "kegiatan apa yang membuat long covid terjadi"
+        
+      ],
+      "responses": [
+        "Penyebab pasti terjadinya Long COVID masih belum sepenuhnya dipahami. Namun, beberapa faktor telah diidentifikasi yang dapat berkontribusi pada terjadinya gejala yang berlanjut atau baru muncul setelah infeksi COVID-19 awal. Beberapa faktor yang mungkin berperan dalam terjadinya Long COVID antara lain:Sistem kekebalan tubuh yang terganggu: Respon kekebalan tubuh yang tidak normal atau gangguan pada sistem kekebalan tubuh dapat mempengaruhi pemulihan dan menyebabkan gejala yang berlanjut pada Long COVID.Peradangan yang berkelanjutan: Infeksi virus SARS-CoV-2 dapat menyebabkan peradangan yang berkelanjutan di berbagai organ dan jaringan tubuh, yang kemudian dapat menyebabkan gejala yang berkepanjangan.Kerusakan jaringan: Virus SARS-CoV-2 dapat menyebabkan kerusakan pada organ dan jaringan tubuh, termasuk paru-paru, jantung, ginjal, dan sistem saraf. Kerusakan ini dapat berkontribusi pada gejala yang berlanjut pada Long COVID.Faktor individu: Faktor seperti usia, kondisi kesehatan yang mendasari, dan faktor genetik individu juga dapat mempengaruhi risiko dan keparahan Long COVID."
+      ]
+    }
+  ]
+}
